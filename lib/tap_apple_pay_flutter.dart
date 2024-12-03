@@ -79,7 +79,7 @@ class TapApplePayFlutter {
     required String sandboxKey,
     required String productionKey,
     required SdkMode sdkMode,
-    required String? merchantId,
+    String? merchantId,
   }) {
     _setupApplePayConfiguration = {
       "sandboxKey": sandboxKey,
